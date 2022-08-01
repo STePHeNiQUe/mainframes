@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="mainframe" max_length="40" name="x_snc_mainframe_mainframe" sizeclass="3" type="collection">
+        <element attributes="encode_utf8=false" label="Customer's Name" max_length="32" name="customer_s_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="customized field 1" max_length="40" name="customized_field_1" type="string"/>
+        <element label="customized field 2" max_length="40" name="customized_field_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date and Time Completed" max_length="40" name="date_and_time_completed" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date and Time Created" max_length="40" name="date_and_time_created" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="encode_utf8=false" label="Email" max_length="32" name="email" reference="sys_email" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+    </element>
+</database>
